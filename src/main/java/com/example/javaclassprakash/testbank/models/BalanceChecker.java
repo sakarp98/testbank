@@ -6,11 +6,7 @@ public class BalanceChecker {
     private String lastName ;
     private int accNum ;
 
-    public BalanceChecker(String firstName, String lastName, int accNum) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.accNum = accNum;
-    }
+
 
     public String getFirstName() {
         return firstName;
